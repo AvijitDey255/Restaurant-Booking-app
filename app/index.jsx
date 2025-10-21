@@ -1,0 +1,17 @@
+
+import { Text, View } from "react-native";
+
+export default function Index() {
+  return (
+    <View
+    className="bg-blue-600"
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Text>Edit app/index.tsx to edit this screen Abhijit dey 255.</Text>
+    </View>
+  );
+}
